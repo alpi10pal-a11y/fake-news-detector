@@ -1,0 +1,57 @@
+﻿# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ── Dataset source files (large, download from Kaggle) ────────────────────────
+data/Fake.csv
+data/True.csv
+
+# ── Generated ML artefacts (large binaries) ───────────────────────────────────
+data/dataset.csv
+ml/models/best_model.pkl
+ml/models/tfidf_vectorizer.pkl
+results/evaluation_report.json
+
+# ── NLTK data ─────────────────────────────────────────────────────────────────
+nltk_data/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+
+# ── Frontend (managed by frontend/.gitignore) ─────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.swp
+*.sln
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
