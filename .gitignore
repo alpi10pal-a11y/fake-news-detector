@@ -24,8 +24,6 @@ data/True.csv
 
 # ── Generated ML artefacts (large binaries) ───────────────────────────────────
 data/dataset.csv
-ml/models/best_model.pkl
-ml/models/tfidf_vectorizer.pkl
 results/evaluation_report.json
 
 # ── NLTK data ─────────────────────────────────────────────────────────────────
